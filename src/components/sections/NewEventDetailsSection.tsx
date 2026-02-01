@@ -31,19 +31,19 @@ export default function NewEventDetailsSection() {
         {
             icon: Clock,
             title: 'Açılış',
-            time: '19:00',
+            time: '20:00',
             description: 'Bu özel anımızda yanımızda olun.',
         },
         {
             icon: Music,
-            title: 'İsteme',
-            time: '19:30',
+            title: 'İsteme Merasimi',
+            time: '20:30',
             description: 'Bol bol fotoğraf çekmeyi unutmayın!',
         },
         {
             icon: Calendar,
-            title: 'Yüzük Merasimi',
-            time: '20:00',
+            title: 'Söz Merasimi',
+            time: '21:00',
             description: 'Sizi de aramızda görmek istiyoruz!',
         },
     ];
