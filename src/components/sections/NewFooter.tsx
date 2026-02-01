@@ -17,7 +17,7 @@ export default function NewFooter() {
                 </div>
 
                 {/* Names */}
-                <h3 className="font-handwriting text-3xl md:text-4xl text-gold-200">
+                <h3 className="font-serif text-3xl md:text-4xl text-gold-200">
                     Nisa & Anıl
                 </h3>
 

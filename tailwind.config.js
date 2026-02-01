@@ -20,7 +20,7 @@ export default {
       fontFamily: {
         serif: ['"Playfair Display"', 'serif'],
         sans: ['Lato', 'sans-serif'],
-        handwriting: ['"Pinyon Script"', 'cursive'],
+        handwriting: ['"Alex Brush"', 'cursive'],
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-out',
