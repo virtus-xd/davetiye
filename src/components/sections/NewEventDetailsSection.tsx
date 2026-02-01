@@ -1,4 +1,4 @@
-import { Clock, MapPin, Music, Calendar } from 'lucide-react';
+import { Clock, MapPin, Heart, Calendar } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import Sparkles from '../Sparkles';
 
@@ -35,7 +35,7 @@ export default function NewEventDetailsSection() {
             description: 'Bu özel anımızda yanımızda olun.',
         },
         {
-            icon: Music,
+            icon: Heart,
             title: 'İsteme Merasimi',
             time: '20:30',
             description: 'Bol bol fotoğraf çekmeyi unutmayın!',
