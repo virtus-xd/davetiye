@@ -50,7 +50,7 @@ export default function NewHeroSection() {
                 </div>
 
                 {/* Names */}
-                <h1 className="font-handwriting text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl">
+                <h1 className="font-serif text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl">
                     Nisa <span className="text-4xl md:text-6xl text-white/50">&</span> Anıl
                 </h1>
 
