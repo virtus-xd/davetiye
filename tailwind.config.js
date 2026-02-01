@@ -20,7 +20,12 @@ export default {
       fontFamily: {
         serif: ['"Playfair Display"', 'serif'],
         sans: ['Lato', 'sans-serif'],
-        handwriting: ['"Allura"', 'cursive'],
+        handwriting: ['"Allura"', 'cursive'], // Default
+        'alex': ['"Alex Brush"', 'cursive'],
+        'great-vibes': ['"Great Vibes"', 'cursive'],
+        'pinyon': ['"Pinyon Script"', 'cursive'],
+        'parisienne': ['"Parisienne"', 'cursive'],
+        'tangerine': ['"Tangerine"', 'cursive'],
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-out',
