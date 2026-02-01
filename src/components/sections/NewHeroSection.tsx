@@ -11,17 +11,6 @@ export default function NewHeroSection() {
         seconds: 0,
     });
 
-    // Font Switcher State
-    const [currentFont, setCurrentFont] = useState('font-handwriting');
-    const fonts = [
-        { name: 'Allura (Varsayılan)', class: 'font-handwriting' },
-        { name: 'Alex Brush', class: 'font-alex' },
-        { name: 'Great Vibes', class: 'font-great-vibes' },
-        { name: 'Pinyon Script', class: 'font-pinyon' },
-        { name: 'Parisienne', class: 'font-parisienne' },
-        { name: 'Tangerine', class: 'font-tangerine' },
-    ];
-
     useEffect(() => {
         const weddingDate = new Date('2026-02-07T19:00:00').getTime();
 
@@ -60,24 +49,8 @@ export default function NewHeroSection() {
                     Sonsuzluğun Başlangıcı
                 </div>
 
-                {/* Font Switcher (Temporary for User Review) */}
-                <div className="flex flex-wrap justify-center gap-2 mb-8 animate-fade-in z-50 relative">
-                    {fonts.map((f) => (
-                        <button
-                            key={f.name}
-                            onClick={() => setCurrentFont(f.class)}
-                            className={`px-3 py-1 text-xs rounded-full border transition-all ${currentFont === f.class
-                                ? 'bg-gold-500 text-black border-gold-500'
-                                : 'bg-transparent text-gold-400 border-gold-500/30 hover:bg-gold-500/10'
-                                }`}
-                        >
-                            {f.name}
-                        </button>
-                    ))}
-                </div>
-
                 {/* Names */}
-                <h1 className={`${currentFont} text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl transition-all duration-300`}>
+                <h1 className="font-handwriting text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl">
                     Nisa <span className="text-4xl md:text-6xl text-white/50">&</span> Anıl
                 </h1>
 
