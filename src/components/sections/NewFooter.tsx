@@ -55,10 +55,10 @@ export default function NewFooter() {
                     </p>
                     <div className="text-gray-500 text-xs font-sans">
                         <a
-                            href="mailto:sanaldavetiyem@gmail.com"
+                            href="mailto:sanaldavetiyecim@gmail.com"
                             className="hover:text-gold-400 transition-colors"
                         >
-                            iletisim@sanaldavetiyem.com
+                            sanaldavetiyecim@gmail.com
                         </a>
                     </div>
                 </div>
