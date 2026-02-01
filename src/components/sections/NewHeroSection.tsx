@@ -50,7 +50,7 @@ export default function NewHeroSection() {
                 </div>
 
                 {/* Names */}
-                <h1 className="font-serif text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl">
+                <h1 className="font-handwriting text-7xl md:text-9xl text-gold-300 animate-slide-up drop-shadow-2xl">
                     Nisa <span className="text-4xl md:text-6xl text-white/50">&</span> Anıl
                 </h1>
 
@@ -72,7 +72,7 @@ export default function NewHeroSection() {
                         7 Şubat 2026
                     </p>
                     <p className="text-sm text-gray-400 font-sans tracking-widest">
-                        CUMARTESİ, SAAT 19:00
+                        CUMARTESİ, SAAT 20:00
                     </p>
                 </div>
 
